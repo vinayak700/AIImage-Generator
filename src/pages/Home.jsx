@@ -22,7 +22,7 @@ const Home = () => {
     const fetchPosts = async () => {
       setLoading(true);
       try {
-        const response = await fetch('https://adorable-red-coypu.cyclic.app/api/v1/post', {
+        const response = await fetch('https://busy-ruby-slug-yoke.cyclic.app/api/v1/post', {
           method: 'GET',
           headers: {
             'content-type': 'application/json',
